@@ -28,7 +28,7 @@ Manually complete the scaffolding of the React app by creating three files:
 * `src/index.tsx`
 * `src/App.tsx`
 
-Their content can be copied from the [example repository on GitHub](https://github.com/vechain-energy/examples-dappkit-viem/src).
+Their content can be copied from the [example repository on GitHub](https://github.com/vechain-energy/examples-dappkit-viem/tree/main/src).
 
 Add script shortcuts in `package.json`:
 
