@@ -1,0 +1,32 @@
+{
+  "name": "examples-viem-dapp-kit",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "@vechain/dapp-kit": "^1.0.9",
+    "@vechain/dapp-kit-react": "^1.0.9",
+    "@vechain/web3-providers-connex": "^1.1.2",
+    "ethers": "^6.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-router-dom": "^5.3.3",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.11.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.1.0",
+    "url": "^0.11.0",
+    "util": "^0.12.3"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  }
+}
